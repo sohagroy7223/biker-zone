@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Biker zone</title>
+        <!-- font Awesome -->
+        <script
+            src="https://kit.fontawesome.com/4bed362189.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- font-family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- daisyUI cdn -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@5"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <!-- css -->
+        <style>
+            .Poppins-font {
+                font-family: "Poppins", sans-serif;
+            }
+        </style>
+    </head>
+    <body class="Poppins-font">
+        <div class="bg-[#264653]">
+            <header class="w-9/12 mx-auto p-10">
+                <!-- nav fopr smal device -->
+                <div
+                    class="relative ml-80 md:hidden hover:cursor-pointer group"
+                >
+                    <i class="fa-solid fa-bars text-[#ffffff] text-3xl"></i>
+                    <div
+                        class="absolute right-0 top-0 hidden group-hover:block"
+                    >
+                        <nav
+                            class="space-y-4 rounded-xl px-16 py-5 bg-blue-700 items-center"
+                        >
+                            <ul
+                                class="flex flex-col space-y-3 font-semibold text-[#ffffff]"
+                            >
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                            <div>
+                                <button class="btn btn-error text-[#ffffff]">
+                                    Login
+                                </button>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- nav for laptop -->
+                <nav
+                    class="hidden md:flex justify-end gap-20 items-center py-11"
+                >
+                    <ul class="flex space-x-8 font-semibold text-[#ffffff]">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div>
+                        <button class="btn btn-error text-[#ffffff]">
+                            Login
+                        </button>
+                    </div>
+                </nav>
+                <div class="md:flex items-center mt-9">
+                    <div class="">
+                        <p class="text-[#ffffff] mt-5">
+                            Computer-controlled digital transistorized with
+                            electronic advance
+                        </p>
+                        <h2 class="text-5xl text-[#ffffff] mb-5">
+                            Honda CBR 300R
+                        </h2>
+                        <p class="w-80 md:w-96 text-[#E0E0E0] mb-5">
+                            Amet minim mollit non deserunt ullamco est sit
+                            aliqua dolor do amet sint. Velit officia consequat
+                            duis enim velit mollit. Exercitation veniam
+                            consequat sunt nostrud amet.
+                        </p>
+                        <button class="btn btn-error text-[#ffffff]">
+                            Purchase
+                        </button>
+                    </div>
+                    <div>
+                        <img src="images/slider/bike3.png" alt="" />
+                    </div>
+                </div>
+            </header>
+        </div>
+    </body>
+</html>
